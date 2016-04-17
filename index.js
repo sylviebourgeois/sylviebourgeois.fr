@@ -12,11 +12,11 @@ var transporter = nodemailer.createTransport();
 /* --- fin de dépendances de contact --- */
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public/Read'));
 
 
 // instruct express to server up static assets
-app.use(express.static('public'));
+app.use(express.static('public/Read'));
 
 app.get('/', function(request, response) {
   response.render('index')
@@ -30,8 +30,8 @@ app.post('/contact',function(request, response){
 	var transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: ,
-        pass:
+        user: test,
+        pass: test
     }
 });
 	
