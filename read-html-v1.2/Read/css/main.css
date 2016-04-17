@@ -34,7 +34,7 @@ h1 a { color:#333; }
 /* FONTS */
 html, button, input, select, textarea, .toggle h4 { font-family: 'Lora', Georgia, serif; }
 h1, h2, h3, h4, h5, h6, .main-navigation ul li, dt { font-family:"Coustard", Georgia, serif; }
-h1.site-title, h1.site-title a { font-family:"UnifrakturMaguntia", Georgia, serif; }
+h1.site-title, h1.site-title a { font-family: 'Pinyon Script', cursive;}
 
 
 /* -------------------------------------------- */
