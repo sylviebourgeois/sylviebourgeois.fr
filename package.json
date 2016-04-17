@@ -3,9 +3,6 @@
   "version": "0.1.4",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
     "body-parser": "^1.14.1",
     "ejs": "^2.3.1",
